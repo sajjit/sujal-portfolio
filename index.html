@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sujal Soti — Civil Engineer</title>
+<meta name="description" content="Portfolio of Sujal Soti, Civil Engineer specializing in water resources and climate impact research.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-header" id="top">
+  <nav class="nav container">
+    <a href="#top" class="logo">SS<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <p class="eyebrow">Civil Engineer &middot; Water Resources &amp; Climate Researcher</p>
+        <h1>Sujal Soti</h1>
+        <p class="hero-lede">
+          Civil engineering graduate from the Institute of Engineering, Tribhuvan University, focused on
+          hydrology, irrigation, and the intersection of climate science and infrastructure. Building a
+          research foundation in climate-resilient water resource management.
+        </p>
+        <div class="hero-actions">
+          <a href="#research" class="btn btn-primary">View Research</a>
+          <a href="assets/Sujal_Soti_CV.docx" class="btn btn-ghost" id="cvBtn" download>Download CV</a>
+        </div>
+        <ul class="hero-meta">
+          <li>📍 Kathmandu, Nepal</li>
+          <li>✉️ <a href="mailto:sujalsoti10@gmail.com">sujalsoti10@gmail.com</a></li>
+          <li>🔗 <a href="https://linkedin.com/in/sujal-soti-3a4737333" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="hero-portrait reveal">
+        <div class="portrait-frame">
+          <img src="assets/images/headshot.jpg" alt="Portrait of Sujal Soti" id="headshotImg"
+               onerror="this.parentElement.classList.add('portrait-placeholder')">
+          <div class="portrait-fallback">
+            <span>SS</span>
+            <p>Add headshot.jpg<br>to assets/images/</p>
+          </div>
+        </div>
+        <div class="portrait-tag">First Division · 74.52%</div>
+      </div>
+    </div>
+    <div class="scroll-cue"><span></span></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="tag">01</span>About</h2>
+      <div class="about-grid reveal">
+        <p class="about-text">
+          I recently completed my Bachelor of Civil Engineering (First Division, 74.52%) at the
+          Institute of Engineering, Thapathali Campus, Tribhuvan University. My interests sit at the
+          intersection of civil infrastructure and environmental science &mdash; particularly how climate
+          change is reshaping water availability, irrigation demand, and the systems engineers design
+          around them.
+        </p>
+        <p class="about-text">
+          Alongside coursework in hydrology, fluid mechanics, and environmental engineering, I've worked
+          on both the research side (climate-crop modelling) and the field side (site supervision,
+          public infrastructure) of civil engineering. I'm currently preparing for the Nepal Engineering
+          Council licensing exam and looking toward graduate study in water resources and climate
+          engineering.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="tag">02</span>Research Experience</h2>
+
+      <div class="research-card reveal">
+        <div class="research-card-head">
+          <h3>Impacts of Climate Change on Crop Yield and Crop Water Requirement</h3>
+          <span class="pill">Undergraduate Thesis</span>
+        </div>
+        <p class="research-sub">Supervisor: Er. Nirajan Devkota, Department of Civil Engineering, IOE Thapathali Campus</p>
+        <ul class="check-list">
+          <li>Assessed impacts of projected climate change on crop yield and irrigation water demand using AquaCrop simulation modelling</li>
+          <li>Performed climate projection analysis and climate data bias correction using R and Python</li>
+          <li>Developed computational, data-driven workflows for hydro-agricultural climate impact assessment</li>
+        </ul>
+        <div class="manuscript-box">
+          <span class="manuscript-label">Manuscript</span>
+          <p>Soti, S., et al., <em>"Impacts of Climate Change on Crop Yield and Crop Water Requirement"</em> &mdash; currently under peer review.</p>
+        </div>
+
+        <div class="gallery-grid research-figures">
+          <figure class="gallery-item">
+            <img class="gallery-photo" src="assets/images/thesis-defense.webp" alt="Sujal presenting the final-year thesis defense at IOE Thapathali Campus">
+            <figcaption>Defending the thesis to the department panel, IOE Thapathali Campus</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img class="gallery-photo" src="assets/images/study-area-map.webp" alt="Map of the Rampur, Chitwan study area with meteorological station reference">
+            <figcaption>Study area &mdash; Rampur, Chitwan, referenced against Meteorological Station 902</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img class="gallery-photo" src="assets/images/cwr-projections.webp" alt="Graphs of projected rice and wheat crop water requirement from 2021 to 2099">
+            <figcaption>Projected rice &amp; wheat crop water requirement (2021&ndash;2099) under SSP2-4.5 / SSP5-8.5</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img class="gallery-photo" src="assets/images/aquacrop-methodology.webp" alt="Diagram of the AquaCrop model input and output workflow">
+            <figcaption>AquaCrop modelling workflow: environmental inputs to yield &amp; water-use outputs</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="interests reveal">
+        <h4>Research Interests</h4>
+        <div class="chip-row">
+          <span class="chip">Climate Change Impact Assessment</span>
+          <span class="chip">Hydrology &amp; Water Resources Modelling</span>
+          <span class="chip">Environmental Engineering</span>
+          <span class="chip">Sustainable Water Resources Management</span>
+          <span class="chip">Irrigation Engineering</span>
+          <span class="chip">Computational Hydrology</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="tag">03</span>Professional Experience</h2>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Junior Engineer</h3>
+            <p class="timeline-org">Public Works Department, Kathmandu Metropolitan City</p>
+            <ul class="check-list">
+              <li>Assisted in planning, supervision, and monitoring of public infrastructure projects</li>
+              <li>Reviewed engineering drawings and technical documentation; coordinated with contractors and government officials</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Site Engineer / Site Supervisor</h3>
+            <p class="timeline-org">Residential and Public Infrastructure Projects</p>
+            <ul class="check-list">
+              <li>Supervised construction quality and progress on building, hydraulic, and road projects</li>
+              <li>Prepared quantity estimates and site reports; coordinated with contractors and consultants</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery reveal">
+        <h4 class="gallery-title">Survey Camp &amp; Fieldwork</h4>
+        <div class="gallery-grid" id="galleryGrid">
+          <figure class="gallery-item">
+            <img class="gallery-photo" src="assets/images/survey-camp.webp" alt="Sujal operating a total station in the field">
+            <figcaption>Total station fieldwork for topographic mapping</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img class="gallery-photo" src="assets/images/total-station-display.webp" alt="Close-up of total station display showing recorded coordinates">
+            <figcaption>Recording station coordinates in the field</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img class="gallery-photo" src="assets/images/road-alignment-cad.webp" alt="Road alignment drawing in AutoCAD Civil 3D">
+            <figcaption>Road alignment design drafted in AutoCAD Civil 3D (SW DTM)</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img class="gallery-photo" src="assets/images/contour-map-cad.webp" alt="Contour map generated from survey data in AutoCAD">
+            <figcaption>Contour mapping generated from raw survey data</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img class="gallery-photo" src="assets/images/site-layout-cad.webp" alt="Site layout plan drafted from topographic survey">
+            <figcaption>Site layout plan derived from the topographic survey</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img class="gallery-photo" src="assets/images/topographic-map-manual.webp" alt="Hand-plotted topographic map at 1:1000 scale">
+            <figcaption>Hand-plotted topographic map, scale 1:1000, from survey camp</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="tag">04</span>Education</h2>
+      <div class="edu-card reveal">
+        <div class="edu-card-head">
+          <h3>Bachelor of Civil Engineering</h3>
+          <span class="edu-year">2026</span>
+        </div>
+        <p class="edu-org">Institute of Engineering (IOE), Thapathali Campus, Tribhuvan University &mdash; Kathmandu, Nepal</p>
+        <p class="edu-grade">First Division &middot; 74.52%</p>
+        <p class="edu-coursework">
+          <strong>Relevant Coursework:</strong> Hydrology, Irrigation Engineering, Environmental Engineering,
+          Fluid Mechanics, Water Supply Engineering, Engineering Geology, Numerical Methods
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="tag">05</span>Technical Skills</h2>
+      <div class="skills-grid reveal">
+        <div class="skill-card">
+          <h4>Programming &amp; Data Analysis</h4>
+          <div class="chip-row">
+            <span class="chip">Python</span>
+            <span class="chip">R</span>
+            <span class="chip">Statistical Analysis</span>
+            <span class="chip">Climate Data Processing</span>
+            <span class="chip">Data Visualization</span>
+            <span class="chip">Microsoft Excel</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h4>Engineering Software</h4>
+          <div class="chip-row">
+            <span class="chip">AquaCrop</span>
+            <span class="chip">AutoCAD</span>
+            <span class="chip">ETABS</span>
+            <span class="chip">SAFE</span>
+            <span class="chip">SW DTM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="tag">06</span>Achievements &amp; Certifications</h2>
+      <div class="achieve-grid reveal">
+        <div class="achieve-card">
+          <div class="achieve-score">8.0</div>
+          <h4>IELTS Overall Band Score</h4>
+          <p>Listening 9.0 &middot; Reading 8.5 &middot; Writing 7.0 &middot; Speaking 7.5</p>
+        </div>
+        <div class="achieve-card">
+          <div class="achieve-score">2026</div>
+          <h4>Nepal Engineering Council License Exam</h4>
+          <p>Scheduled September 2026</p>
+        </div>
+        <div class="achieve-card">
+          <div class="achieve-score">18d</div>
+          <h4>Building Analysis &amp; Design Workshop</h4>
+          <p>Civil Engineering Students' Society (CESS), Thapathali Campus &middot; hands-on training in AutoCAD, ETABS &amp; SAFE</p>
+          <a class="achieve-link" href="assets/images/certificate-cess-workshop.webp" target="_blank" rel="noopener">View Certificate &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="tag">07</span>Get in Touch</h2>
+      <p class="contact-lede reveal">
+        Open to graduate research opportunities, scholarships, and collaborations in civil,
+        environmental, and water resources engineering.
+      </p>
+      <div class="contact-links reveal">
+        <a href="mailto:sujalsoti10@gmail.com" class="btn btn-primary">✉️ sujalsoti10@gmail.com</a>
+        <a href="tel:+9779860079135" class="btn btn-ghost">📞 +977 986 007 9135</a>
+        <a href="https://linkedin.com/in/sujal-soti-3a4737333" target="_blank" rel="noopener" class="btn btn-ghost">🔗 LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Sujal Soti. Kathmandu, Nepal.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
