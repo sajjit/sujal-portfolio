@@ -29,3 +29,9 @@ revealEls.forEach(el => observer.observe(el));
 
 // Footer year
 document.getElementById('year').textContent = new Date().getFullYear();
+
+// Headshot fallback if the image is missing
+const headshotImg = document.getElementById('headshotImg');
+headshotImg.addEventListener('error', () => {
+  headshotImg.parentElement.classList.add('portrait-placeholder');
+});
