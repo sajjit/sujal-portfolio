@@ -295,6 +295,7 @@ a { color: inherit; text-decoration: none; }
   padding: 36px;
   box-shadow: var(--shadow);
 }
+.research-card + .research-card { margin-top: 28px; }
 .research-card-head {
   display: flex;
   justify-content: space-between;
