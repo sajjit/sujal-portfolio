@@ -472,6 +472,44 @@ a { color: inherit; text-decoration: none; }
 }
 .achieve-link:hover { color: var(--accent); }
 
+.credentials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px;
+  align-items: start;
+  margin-top: 32px;
+  padding: 36px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  scroll-margin-top: 90px;
+}
+.credentials h4 { font-size: 1.05rem; margin-bottom: 16px; }
+.credentials-list { margin-bottom: 28px; }
+.credentials-list div {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.92rem;
+}
+.credentials-list dt { color: var(--ink-soft); }
+.credentials-list dd { font-weight: 600; text-align: right; }
+.credential-doc { display: flex; flex-direction: column; gap: 10px; }
+.credential-doc a { display: block; }
+.credential-doc img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+.credential-doc a:hover img { transform: translateY(-2px); }
+.credential-doc figcaption { font-size: 0.82rem; color: var(--ink-soft); text-align: center; }
+
 /* ---------- Contact ---------- */
 .contact-section { text-align: center; }
 .contact-lede {
@@ -504,7 +542,8 @@ a { color: inherit; text-decoration: none; }
   .hero-grid { grid-template-columns: 1fr; }
   .hero-portrait { order: -1; }
   .portrait-frame { width: 200px; height: 240px; }
-  .skills-grid, .achieve-grid { grid-template-columns: 1fr; }
+  .skills-grid, .achieve-grid, .credentials { grid-template-columns: 1fr; }
+  .credentials { padding: 24px; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
